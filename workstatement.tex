@@ -4,6 +4,7 @@
 \usepackage{graphicx}
 \usepackage{bm}
 \usepackage{natbib}
+\usepackage{url}
 
 \theoremstyle{definition}
 \newtheorem{dfn}{Definition}
@@ -62,10 +63,10 @@ fictional one, and the sole purpose of this work is a class exercise.}
 \newpage
 
 \section{Background} 
-The Washington Metropolitan Area Transit Authority (WMATA) is a transportation agency created by the Library of Congress to provide rapid transit between the District of Columbia, Maryland, and the Commonwealth of Virginia. WMATA provides rapid transit service (Metrorail), bus services (Metrobus), and paratransit (MetroAccess). The agency works to facilitate ongoing transportation, promote transportation planning and expand its current system to other regions of the three states. The Maryland Transit System (MTA Maryland) is a state-operated agency that provides mass transportation in the Baltimore-Washington Metropolitan area, serving as a major transit provider for a large population of Baltimore residents. MTA Maryland serves numerous bus lines, as well as the Light Rail, Metro Subway, and the MARC train. Together, the two transportation agencies provide separate but convenient fast transit in the Greater Washington-Baltimore Metropolitan area.
+The Washington Metropolitan Area Transit Authority (WMATA) is a transportation agency created by the Library of Congress to provide rapid transit between the District of Columbia, Maryland, and the Commonwealth of Virginia. WMATA provides rapid transit service (Metrorail), bus services (Metrobus), and paratransit (MetroAccess) ~\cite{WMATA}. The agency works to facilitate ongoing transportation, promote transportation planning and expand its current system to other regions of the three states. The Maryland Transit System (MTA Maryland) is a state-operated agency that provides mass transportation in the Baltimore-Washington Metropolitan area, serving as a major transit provider for a large population of Baltimore residents. MTA Maryland serves numerous bus lines, as well as the Light Rail, Metro Subway, and the MARC train ~\cite{MTA}. Together, the two transportation agencies provide separate but convenient fast transit in the Greater Washington-Baltimore Metropolitan area.
 
 \section{Problem Statement}
-Although the WMATA is currently constructing two new lines surrounding D.C. to the existing metro system, it has no plans to expand the Metrorail system to the city and suburbs surrounding Baltimore, as demonstrated by Figure \ref{fig:wmatamap}. MTA Maryland's Metro Subway system only operates within the city limits. Residents of the Greater Washington-Baltimore Metropolitan area therefore have limited access to public transportation between the two cities. Currently, the MARC and AMTRAK are the only two trains that travel directly between D.C. and Baltimore; however, the MARC only operates during weekday rush hours, and AMTRAK fares are too impractical for daily commute. 
+Although the WMATA is currently constructing two new lines surrounding D.C. to the existing metro system, it has no plans to expand the Metrorail system to the city and suburbs surrounding Baltimore, as demonstrated by Figure 1. MTA Maryland's Metro Subway system only operates within the city limits. Residents of the Greater Washington-Baltimore Metropolitan area therefore have limited access to public transportation between the two cities. Currently, the MARC and AMTRAK are the only two trains that travel directly between D.C. and Baltimore; however, the MARC only operates during weekday rush hours, and AMTRAK fares are too impractical for daily commute. 
 The sponsors currently have no plans to build such a crucial transit line, as the two metro systems operate under two different government agencies. Our task is to provide them with a model that can demonstrate and predict the operating capacity for such a line if it were to be built by employing existing published Maryland transportation statistics, such as traffic volume and highway mobility reports between D.C. and Baltimore.
 \begin{figure}[h]
     \begin{center}
@@ -76,7 +77,7 @@ The sponsors currently have no plans to build such a crucial transit line, as th
 
 
 \section{Approach}
-We will gather data and statistics published by the Maryland Department of Transportation to incorporate them into a mathematical model of traffic flow. We will consider the Payne-Whitham or the Aw-Rascle equations for traffic flow, which are second order equations that do not model individual vehicles, but rather the continuous vehicle density function and the continuous velocity function. We may also consider another model, proposed by M. Bando, which describes the optimal velocity in traffic, which takes into account Newtonian acceleration. Time permitting, we will also attempt to design an efficient subway line based on these models that can eliminate common factors such as traffic jam, vehicle density, time delays, and highway accidents. Based on resource allocation, time allowed, and the results of our research, we hope to develop a model that can provide fast, affordable transit that operates on a 24/7 basis for the residents of the Greater Washington-Baltimore Metropolitan area.
+We will gather data and statistics ~\cite{Mobility}, ~\cite{Trends} published by the Maryland Department of Transportation to incorporate them into a mathematical model of traffic flow. We will consider the Payne-Whitham or the Aw-Rascle equations for traffic flow, which are second order equations that do not model individual vehicles, but rather the continuous vehicle density function and the continuous velocity function ~\cite{MITModel}. We may also consider another model, proposed by M. Bando, which describes the optimal velocity in traffic, which takes into account Newtonian acceleration ~\cite{BandoModel}. Time permitting, we will also attempt to design an efficient subway line based on these models that can eliminate common factors such as traffic jam, vehicle density, time delays, and highway accidents. Based on resource allocation, time allowed, and the results of our research, we hope to develop a model that can provide fast, affordable transit that operates on a 24/7 basis for the residents of the Greater Washington-Baltimore Metropolitan area.
 \section{Milestones}
 We have the following major deadlines:
 \begin{itemize}
@@ -110,10 +111,9 @@ In order for our project to be of successful one, we will need:
     \item Small expenses relevant to work.
 \end{itemize}
 
-Blablabla said Nobody ~\cite{Nobody06}.
-
+\newpage
 \bibliographystyle{plain}
 %%\renewcommand\bibname{Selected Bibliography Including Cited Works}
 %\nocite{*}
-\bibliography{mybib}{}
+\bibliography{biblio}{}
 \end{document}

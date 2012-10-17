@@ -1,0 +1,42 @@
+\begin{thebibliography}{1}
+
+\bibitem{MTA}
+MTA Maryland.
+\newblock {A}bout the {MTA} | {M}aryland {T}ransit {A}dministration.
+\newblock \url{http://mta.maryland.gov/about-mta}.
+\newblock Accessed: 10/16/2012.
+
+\bibitem{MITModel}
+et~al Morris R.~Flynn.
+\newblock {T}raffic {M}odeling - {P}hantom {T}raffic {J}ams and {T}raveling
+  {J}amitons.
+\newblock \url{http://math.mit.edu/projects/traffic/}.
+\newblock Accessed: 10/16/2012.
+
+\bibitem{Mobility}
+Maryland~Department of~Transportation.
+\newblock {M}aryl and {S}tate {H}ighway {M}obility {R}eport.
+\newblock
+  \url{http://sha.md.gov/OOTS/2012_Maryland_State_HIghway_Mobility_Report.pdf}.
+\newblock Accessed: 10/16/2012.
+
+\bibitem{Trends}
+Maryland~Department of~Transportation.
+\newblock {M}aryl and {S}tate {T}raffic {T}rends {Introduction}.
+\newblock \url{http://sha.md.gov/Index.aspx?PageId=253}.
+\newblock Accessed: 10/16/2012.
+
+\bibitem{BandoModel}
+Yuki Sugiyama.
+\newblock {O}primal {V}elocity {M}odel.
+\newblock
+  \url{http://traffic.phys.cs.is.nagoya-u.ac.jp/~mstf/sample/ov_e.html}.
+\newblock Accessed: 10/16/2012.
+
+\bibitem{WMATA}
+WMATA.
+\newblock {M}etro - {A}bout {M}etro.
+\newblock \url{http://www.wmata.com/about_metro/}.
+\newblock Accessed: 10/16/2012.
+
+\end{thebibliography}
